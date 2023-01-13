@@ -25,3 +25,42 @@ const navSlide = () => {
 
 }
 navSlide();
+
+function cottageOption(){
+    let selectedOption = document.getElementById('cottageType').value;
+    //console.log(selectedOption);
+    switch (parseInt(selectedOption))
+    {
+        case 0: console.log(selectedOption);document.getElementById('labelPrice').innerHTML = "Php 0.00";
+        break;
+
+        case 1: console.log(selectedOption);document.getElementById('labelPrice').innerHTML = "Php 3,000.00";
+        break;
+
+        case 2: console.log(selectedOption);document.getElementById('labelPrice').innerHTML = "Php 2,000.00";
+        break;
+
+        case 3: console.log(selectedOption);document.getElementById('labelPrice').innerHTML = "Php 1,000.00";
+        break;
+
+        default: document.getElementById('labelPrice').innerHTML = "Php 0.00";
+    }
+}
+
+function onLoadPage(page){
+    // console.log('test');
+    let heroDiv = document.getElementById('hero');
+    console.log(heroDiv);
+    heroDiv.style.width = '100%';
+    heroDiv.style.height = '92vh';
+    heroDiv.style.objectFit = 'cover';
+    if (page=='about'){
+        heroDiv.style.backgroundImage = 'url(/images/beach7.jpg)';
+        heroDiv.style.color = 'white';
+    }
+    else {
+        heroDiv.style.backgroundImage = 'url(/images/beach12.jpg)';    
+        heroDiv.style.color = 'black';
+    }
+    heroDiv.style.backgroundSize = 'cover';   
+}
