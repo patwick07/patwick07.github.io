@@ -18,6 +18,11 @@ nav{
     object-fit: cover;
     background-image: url(/images/beach11.jpg);
     background-size: cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 .brand{
     color: rgba(255, 250, 239, 0.959);
@@ -62,12 +67,24 @@ nav{
     background-color: lightblue;
     /* color: white; */
     text-align: center;
- }
+}
 
- .footer img {
+.footer img {
     height: 20px;
     width: 20px;
- }
+}
+
+.hero .events img{
+    height: 300px;
+    width: 300px;
+    object-fit: cover;
+}
+
+.hero .service img{
+    height: 200px;
+    width: 300px;
+    object-fit: cover;
+}
 
 @media screen and (max-width: 1024px){
     .nav-links{

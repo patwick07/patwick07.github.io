@@ -3,10 +3,10 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Home</title>
+    <title>Events</title>
     <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap" rel="stylesheet">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="../css/style.css">
   </head>
   <body>
     <nav>
@@ -14,9 +14,9 @@
             <h4>Panibuatan Beach Resort</h4>
         </div>
         <ul class="nav-links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="pages/about.html">About</a></li>
-            <li><a href="pages/contact.html">Contact</a></li>
+            <li><a href="../index.html">Home</a></li>
+            <li><a href="../pages/about.html">About</a></li>
+            <li><a href="../pages/contact.html">Contact</a></li>
             <li><a href="#" data-bs-toggle="modal" data-bs-target="#staticBackdrop">Booking</a></li>
         </ul>
         <div class="burger">
@@ -26,33 +26,74 @@
         </div>
     </nav>
     <div class="hero">
-      <div class="container d-flex flex-lg-row flex-md-row flex-sm-column justify-content-evenly">
-        <div>
-          <a href="pages/gallery.html" class="btn btn-primary opacity-50 mb-1">Gallery</a>
+        <div class="text-center">
+            <h1>Events</h1>
         </div>
-        <div>
-          <a href="pages/events.html" class="btn btn-primary opacity-50 mb-1">Events</a>
+        <div class="events container d-flex flex-row justify-content-evenly">
+            <div class="event1">
+                <img src="../images/conference-room.jpeg" alt="">
+                <div class="eventcontent" style="width: 300px;">
+                    <p class="text-center fs-4 font-weight-bold">The Conference Room</p>
+                    <p>The resort offers meeting room facilities. Conference rooms can accommodate 50-60 participants. Its rooms are air-conditioned and set up with a basic sound system and projector providing an excellent venue for training, meetings, and more.</p>
+                </div>
+            </div>
+            <div class="event2">
+                <img src="../images/hall.jpg" alt="">
+                <div class="eventcontent" style="width: 300px;">
+                    <p class="text-center fs-4 font-weight-bold">The Pavilion Hall</p>
+                    <p>The Pavilion hall can house 300 guests. This room is ideal for large group events like catering, debut, and a lot more.</p>
+                </div>
+            </div>
+            <div class="event3">
+                <img src="../images/event-center.jpg" alt="">
+                <div class="eventcontent" style="width: 300px;">
+                    <p class="text-center fs-4 font-weight-bold">The Event Center</p>
+                    <p>The Event Center is the biggest among the venues. It was boasting of an immense space that has 500 seating capacity. This venue will surely fit for your big events.</p>
+                </div>
+            </div>
         </div>
-        <div>
-          <a href="pages/services.html" class="btn btn-primary opacity-50">Services</a>
-        </div>
-      </div>
-      <!-- <div class="position-absolute top-50 start-50 translate-middle"> -->
-      <div class="container">
-        <p class="text-sm-center text-wrap fs-2">Panibuatan Beach Resort is your haven to relax and enjoy. Witness the beautiful serenity of the beach, fresh breeze and the calming sound of the waves.</p>
-      </div>
-      <!-- </div> -->
     </div>
+    <!-- <div class="hero">
+      <div class="container d-flex flex-lg-row flex-sm-column justify-content-evenly ">
+        <div>
+          <a href="pages/gallery.html" class="btn btn-primary opacity-50">Gallery</a>
+        </div>
+        <div>
+          <button class="btn btn-primary opacity-50">Events</button>
+        </div>
+        <div>
+          <button class="btn btn-primary opacity-50">Services</button>
+        </div>
+      </div>
+      <div class="position-absolute top-50 start-50 translate-middle">
+        <p class="text-sm-center text-wrap fs-1">Panibuatan Beach Resort is your haven to relax and enjoy. Witness the beautiful serenity of the beach, fresh breeze and the calming sound of the waves.</p>
+      </div>
+    </div> -->
     <!-- <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+        <div class="text-center">
+            <h1>Gallery</h1>
+        </div>
         <div class="carousel-inner">
             <div class="carousel-item active">
-                <img src="images/beach9.jpg" class="d-block w-100" alt="...">
+                <img src="../images/beach9.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/beach2.jpg" class="d-block w-100" alt="...">
+                <img src="../images/beach2.jpg" class="d-block w-100" alt="...">
             </div>
             <div class="carousel-item">
-                <img src="images/beach10.jpg" class="d-block w-100" alt="...">
+                <img src="../images/beach10.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/beach11.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/beach12.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/beach3.jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="../images/beach5.webp" class="d-block w-100" alt="...">
             </div>
         </div>
         
@@ -120,13 +161,13 @@
     </div>
     <div class="footer d-flex flex-row justify-content-sm-center ">
       <div>© Panibuatan Beach Resort | 09291234567</div>
-      <a href="https://www.facebook.com/" target="_blank"><img src="images/fb.png" alt=""></a> 
-      <a href="https://www.instagram.com/" target="_blank"><img src="images/ig.png" alt=""></a>
-      <a href="https://www.twitter.com/" target="_blank"><img src="images/twitter.png" alt=""></a>
+      <a href="https://www.facebook.com/" target="_blank"><img src="../images/fb.png" alt=""></a> 
+        <a href="https://www.instagram.com/" target="_blank"><img src="../images/ig.png" alt=""></a>
+        <a href="https://www.twitter.com/" target="_blank"><img src="../images/twitter.png" alt=""></a>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-    <script src="js/app.js"></script>
+    <script src="../js/app.js"></script>
     <!-- <script src="//code.tidio.co/35ixlpoxzer85wu7puvk0eggoktsdy7y.js" async></script> -->
   </body>
 </html>
