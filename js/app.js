@@ -55,12 +55,12 @@ function onLoadPage(page){
     heroDiv.style.height = '92vh';
     heroDiv.style.objectFit = 'cover';
     if (page=='about'){
-        heroDiv.style.backgroundImage = 'url(/images/beach7.jpg)';
-        heroDiv.style.color = 'white';
+        heroDiv.style.backgroundImage = 'url(/images/beach9.jpg)';
+        // heroDiv.style.color = 'white';
     }
     else {
         heroDiv.style.backgroundImage = 'url(/images/beach12.jpg)';    
-        heroDiv.style.color = 'black';
+        // heroDiv.style.color = 'black';
     }
     heroDiv.style.backgroundSize = 'cover';   
 }
