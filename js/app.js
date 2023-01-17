@@ -49,7 +49,8 @@ function cottageOption(){
 
 function onLoadPage(page){
     // console.log('test');
-    let heroDiv = document.getElementById('hero');
+    // let heroDiv = document.getElementById('hero');
+    let heroDiv = document.querySelector('.hero');
     console.log(heroDiv);
     heroDiv.style.width = '100%';
     heroDiv.style.height = '92vh';
