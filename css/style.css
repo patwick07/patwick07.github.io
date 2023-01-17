@@ -10,7 +10,19 @@ nav{
     min-height: 8vh;
     font-family: 'Roboto Condensed', sans-serif;
     background-color: lightblue;
+
+    position: absolute;
+    z-index: 999;
+    width: 100%;
 }
+#my-carousel {
+    position: absolute;
+}
+
+.pad{
+    height: 8vh;
+}
+
 .hero{
     width: 100%;
     height: 92vh;
@@ -23,6 +35,7 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    top: 8vh;
 }
 .brand{
     color: rgba(255, 250, 239, 0.959);
