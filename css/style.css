@@ -15,14 +15,9 @@ nav{
     z-index: 999;
     width: 100%;
 }
-#my-carousel {
-    position: absolute;
-}
-
 .pad{
     height: 8vh;
 }
-
 .hero{
     width: 100%;
     height: 92vh;
@@ -35,7 +30,6 @@ nav{
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    top: 8vh;
 }
 .brand{
     color: rgba(255, 250, 239, 0.959);
@@ -71,7 +65,6 @@ nav{
     margin: 5px;
     transition: all 0.3s ease;
 }
-
 .footer {
     /* position: fixed; */
     left: 0;
@@ -81,18 +74,15 @@ nav{
     /* color: white; */
     text-align: center;
 }
-
 .footer img {
     height: 20px;
     width: 20px;
 }
-
 .hero .events img{
     height: 300px;
     width: 300px;
     object-fit: cover;
 }
-
 .hero .service img{
     height: 200px;
     width: 300px;
@@ -150,7 +140,6 @@ nav{
     .toggle .line3{
         transform: rotate(45deg) translate(-5px, -6px);
     }
-
     .hero{
         width: 100%;
         object-fit: cover;
@@ -161,57 +150,25 @@ nav{
         align-items: center;
         flex-direction: column;
     }
-
     #heroIndex, #heroAbout, #heroContact {
         height: 92vh;
     }
-
     #heroEvents, #heroServices {
         height: auto;
     }
-
-    /* #carouselExample {
-        display: flex;
-    } */
-
     .hero .container {
         display: flex;
         justify-content: center;
         align-items: flex-start;
         flex-direction: column;
     }
-
     .hero .events, .hero .service {
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
     }
-
     .hero h1{
         margin: auto;
     }
 }
-
-/* @media only screen and (max-width: 480px)
-{
-    .hero{
-        width: 100%;
-        height: 92vh;
-        object-fit: cover;
-        background-image: url(/images/beach11.jpg);
-        background-size: cover;
-    
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        flex-direction: column;
-    }
-
-    .hero .container {
-        display: flex;
-        justify-content: center;
-        align-items: flex-start;
-        flex-direction: column;
-    }
-} */
